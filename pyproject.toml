@@ -1,0 +1,19 @@
+[project]
+name = "py-ing"
+version = "0.1.0"
+description = "Cours de python pour l'ingénieur"
+authors = [
+    {name = "Sebastien Larinier",email = "sebdraven@protonmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "jupyterlab (>=4.3.5,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
